@@ -1,0 +1,133 @@
+@page
+@model SmartNature.API.Pages.Sensores.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<link rel="stylesheet" href="~/bootstrap.min.css" />
+
+<style>
+    body {
+        background-color: #e7f5ec;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .sensor-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .sensor-box {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 960px;
+        border-left: 6px solid #28a745;
+        text-align: center;
+    }
+
+    h2 {
+        color: #28a745;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .btn-add {
+        background-color: #28a745;
+        color: white;
+        font-weight: 600;
+        border: none;
+        margin-right: 10px;
+    }
+
+    .btn-add:hover {
+        background-color: #218838;
+    }
+
+    .btn-remove {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+    }
+
+    .btn-remove:hover {
+        background-color: #c82333;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+        font-weight: 600;
+        border: none;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+    table {
+        margin: 0 auto;
+        width: 80%;
+        border: 2px solid black;
+    }
+
+    th {
+        background-color: #28a745;
+        color: white;
+    }
+
+    td,
+    th {
+        border: 1px solid black;
+    }
+
+    .text-center {
+        margin-top: 20px;
+    }
+</style>
+
+<div class="sensor-container">
+    <div class="sensor-box">
+        <h2>Sensores Cadastrados</h2>
+
+        <table class="table text-center align-middle">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Localização</th>
+                    <th>Leituras</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sensor in Model.Sensores)
+                {
+                    <tr>
+                        <td>@sensor.Nome</td>
+                        <td>@sensor.Localizacao</td>
+                        <td>@(sensor.Leituras?.Count ?? 0)</td>
+                        <td>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@sensor.Id" class="d-inline">
+                                <button class="btn btn-sm btn-remove">Remover</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-center">
+            <form asp-page="/Sensores/Create" method="get" class="d-inline">
+                <button class="btn btn-add mt-3">Adicionar Novo Sensor</button>
+            </form>
+            <form asp-page="/Leituras/Index" method="get" class="d-inline">
+                <button class="btn btn-secondary mt-3">Ver Leituras</button>
+            </form>
+        </div>
+        <form asp-page="/Alertas/Index" method="get" class="d-inline">
+            <button class="btn btn-secondary mt-3">Ver Alertas</button>
+        </form>
+    </div>
+</div>

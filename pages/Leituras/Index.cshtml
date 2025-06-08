@@ -1,0 +1,98 @@
+@page
+@model SmartNature.API.Pages.Leituras.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<link rel="stylesheet" href="~/bootstrap.min.css" />
+
+<style>
+    body {
+        background-color: #e7f5ec;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .leitura-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .leitura-box {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 960px;
+        border-left: 6px solid #28a745;
+        text-align: center;
+    }
+
+    h2 {
+        color: #28a745;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    table {
+        margin: 0 auto;
+        width: 80%;
+        border: 2px solid black;
+    }
+
+    th {
+        background-color: #28a745;
+        color: white;
+    }
+
+    td,
+    th {
+        border: 1px solid black;
+    }
+
+    .btn-back {
+        background-color: #6c757d;
+        color: white;
+        font-weight: 600;
+        border: none;
+        margin-top: 30px;
+    }
+
+    .btn-back:hover {
+        background-color: #5a6268;
+    }
+</style>
+
+<div class="leitura-container">
+    <div class="leitura-box">
+        <h2>Histórico de Leituras</h2>
+
+        <table class="table text-center align-middle">
+            <thead>
+                <tr>
+                    <th>Sensor</th>
+                    <th>Temperatura (°C)</th>
+                    <th>Umidade (%)</th>
+                    <th>Fumaça (ppm)</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var leitura in Model.Leituras)
+                {
+                    <tr>
+                        <td>@leitura.Sensor?.Nome</td>
+                        <td>@leitura.Temperatura</td>
+                        <td>@leitura.Umidade</td>
+                        <td>@leitura.Fumaca</td>
+                        <td>@leitura.DataHora.ToString("dd/MM/yyyy HH:mm")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <form method="get" asp-page="/Sensores/Index">
+            <button type="submit" class="btn btn-back">Voltar para Sensores</button>
+        </form>
+    </div>
+</div>

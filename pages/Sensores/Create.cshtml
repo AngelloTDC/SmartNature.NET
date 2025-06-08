@@ -1,0 +1,85 @@
+@page
+@model SmartNature.API.Pages.Sensores.CreateModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<link rel="stylesheet" href="~/bootstrap.min.css" />
+
+<style>
+    body {
+        background-color: #e7f5ec;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .form-box {
+        background-color: #fff;
+        padding: 35px;
+        border-radius: 15px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        max-width: 480px;
+        width: 100%;
+        border-left: 6px solid #28a745;
+    }
+
+    h2 {
+        text-align: center;
+        color: #28a745;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    label {
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .btn-save {
+        background-color: #28a745;
+        border: none;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btn-save:hover {
+        background-color: #218838;
+    }
+
+    .btn-back {
+        margin-top: 15px;
+        width: 100%;
+        font-weight: 600;
+    }
+</style>
+
+<div class="form-container">
+    <div class="form-box">
+        <h2>Novo Sensor</h2>
+
+        <form method="post">
+            <div class="mb-3">
+                <label asp-for="Sensor.Nome" class="form-label">Nome</label>
+                <input asp-for="Sensor.Nome" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Sensor.Localizacao" class="form-label">Localização</label>
+                <input asp-for="Sensor.Localizacao" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-save">Salvar</button>
+        </form>
+
+        <form asp-page="/Sensores/Index" method="get">
+            <button type="submit" class="btn btn-outline-secondary btn-back">Voltar para Lista</button>
+        </form>
+    </div>
+</div>
