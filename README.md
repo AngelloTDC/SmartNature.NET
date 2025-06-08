@@ -62,15 +62,13 @@ A lógica de severidade na página de Alertas é baseada nos seguintes critério
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedores
 
-- Nome: Angello Turano da Costa
+- Angello Turano - RM: 556511
+- Cauã Sanches - RM:558317
+- Leonardo Bianchi - RM:558576
+
 - Projeto Global Solution - FIAP 2025
 - Repositório: [github.com/AngelloTDC/SmartNature.NET](https://github.com/AngelloTDC/SmartNature.NET)
 
 ---
-
-## 📦 Publicação
-
-- ✅ Projeto publicado com sucesso no GitHub
-- 🔜 Futuro: Deploy para Azure App Service (GitHub Actions)
