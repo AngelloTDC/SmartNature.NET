@@ -54,21 +54,83 @@ SmartNature.API/
 
 A lógica de severidade na página de Alertas é baseada nos seguintes critérios:
 
-| Severidade | Condições |
-|------------|-----------|
+| Severidade | Condições                           |
+| ---------- | ----------------------------------- |
 | **ALTA**   | Fumaça > 50 **OU** Temperatura > 40 |
 | **MÉDIA**  | Fumaça > 25 **OU** Temperatura > 35 |
-| **BAIXA**  | Qualquer outro valor |
+| **BAIXA**  | Qualquer outro valor                |
+
+---
+
+## 🧪 Instruções para Testes
+
+O projeto pode ser testado facilmente via Swagger:
+
+1. Execute o projeto (`dotnet run`)
+2. Acesse [https://localhost:5001/swagger](https://localhost:5001/swagger)
+
+### Exemplo de Requisição POST (Criar Leitura)
+
+```json
+POST /api/Leitura
+Content-Type: application/json
+
+{
+  "temperatura": 37.5,
+  "umidade": 28,
+  "fumaca": 32,
+  "dataHora": "2025-06-08T06:00:00",
+  "sensorId": 1
+}
+```
+
+### Exemplo de Requisição GET (Todas as Leituras)
+
+```
+GET /api/Leitura
+```
+
+### Exemplo de DELETE (Excluir Leitura)
+
+```
+DELETE /api/Leitura/4
+```
+
+### Exemplo de GET Alertas com Severidade
+
+```
+GET /api/Alerta
+```
+
+---
+
+## ⚙️ Execução Local
+
+Para rodar o projeto localmente:
+
+```bash
+# Restore dependências
+dotnet restore
+
+# Build
+dotnet build
+
+# Executar aplicação
+dotnet run
+```
+
+Depois, acesse:
+
+- Frontend: [https://localhost:5001/Sensores](https://localhost:5001/Sensores)
+- Swagger: [https://localhost:5001/swagger](https://localhost:5001/swagger)
 
 ---
 
 ## 👨‍💻 Desenvolvedores
 
 - Angello Turano - RM: 556511
-- Cauã Sanches - RM:558317
-- Leonardo Bianchi - RM:558576
+- Cauã Sanches - RM: 558317
+- Leonardo Bianchi - RM: 558576
 
-- Projeto Global Solution - FIAP 2025
-- Repositório: [github.com/AngelloTDC/SmartNature.NET](https://github.com/AngelloTDC/SmartNature.NET)
-
----
+Global Solution - FIAP 2025  
+🔗 Repositório: [github.com/AngelloTDC/SmartNature.NET](https://github.com/AngelloTDC/SmartNature.NET)
