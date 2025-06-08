@@ -112,6 +112,8 @@
                             <form method="post" asp-page-handler="Delete" asp-route-id="@sensor.Id" class="d-inline">
                                 <button class="btn btn-sm btn-remove">Remover</button>
                             </form>
+                            <a asp-page="/Sensores/Edit" asp-route-id="@sensor.Id"
+                                class="btn btn-sm btn-outline-success ms-2">Editar</a>
                         </td>
                     </tr>
                 }

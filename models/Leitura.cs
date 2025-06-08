@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 public class Leitura
 {
     public int Id { get; set; }
@@ -7,5 +9,7 @@ public class Leitura
     public DateTime DataHora { get; set; }
 
     public int SensorId { get; set; }
+
+    [JsonIgnore]
     public Sensor Sensor { get; set; }
 }
