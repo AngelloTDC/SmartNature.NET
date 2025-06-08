@@ -134,3 +134,4 @@ Depois, acesse:
 
 Global Solution - FIAP 2025  
 🔗 Repositório: [github.com/AngelloTDC/SmartNature.NET](https://github.com/AngelloTDC/SmartNature.NET)
+🔗 Video Pitch: https://www.youtube.com/watch?v=QJbUhtgRur4
