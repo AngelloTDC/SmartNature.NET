@@ -132,13 +132,19 @@ Depois, acesse:
 - Cauã Sanches - RM: 558317
 - Leonardo Bianchi - RM: 558576
 
-Global Solution - FIAP 2025  
-🔗 Repositório: [github.com/AngelloTDC/SmartNature.NET](https://github.com/AngelloTDC/SmartNature.NET)
 
-🔗 Video Pitch: [https://www.youtube.com/watch?v=QJbUhtgRur4](https://www.youtube.com/watch?v=QJbUhtgRur4)
+Global Solution - FIAP 2025
 
-🔗 Video .NET: [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://youtu.be/nAqNmpNykbQ)
+🎥 Vídeos
 
-🔗 Video 2 de .NET:
+- 📽️ Video Pitch
+https://www.youtube.com/watch?v=QJbUhtgRur4
 
-🔗 Video JAVA: [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://www.youtube.com/watch?v=Q8nJ_H1wMAs)
+-💻 Vídeo Apresentação .NET (1)
+https://www.youtube.com/watch?v=Q8nJ_H1wMAs
+
+-💻 Vídeo Apresentação .NET (2)
+https://youtu.be/TvDq5auNv6M
+
+-☕ Vídeo Apresentação Java
+https://www.youtube.com/watch?v=Q8nJ_H1wMAs
