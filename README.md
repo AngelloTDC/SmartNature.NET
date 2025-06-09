@@ -140,7 +140,7 @@ Depois, acesse:
   - [https://www.youtube.com/watch?v=QJbUhtgRur4](https://www.youtube.com/watch?v=QJbUhtgRur4)
 
 - 💻 **Apresentação do Projeto .NET (Parte 1)**
-  - [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://www.youtube.com/watch?v=Q8nJ_H1wMAs)
+  - [https://youtu.be/nAqNmpNykbQ](https://youtu.be/nAqNmpNykbQ)
 
 - 💻 **Apresentação do Projeto .NET (Parte 2)**
   - [https://youtu.be/TvDq5auNv6M](https://youtu.be/TvDq5auNv6M)
