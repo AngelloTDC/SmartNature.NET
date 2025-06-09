@@ -132,19 +132,24 @@ Depois, acesse:
 - Cauã Sanches - RM: 558317
 - Leonardo Bianchi - RM: 558576
 
+---
+
+## 📹 Vídeos
+
+- 🎤 **Vídeo Pitch**
+  - [https://www.youtube.com/watch?v=QJbUhtgRur4](https://www.youtube.com/watch?v=QJbUhtgRur4)
+
+- 💻 **Apresentação do Projeto .NET (Parte 1)**
+  - [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://www.youtube.com/watch?v=Q8nJ_H1wMAs)
+
+- 💻 **Apresentação do Projeto .NET (Parte 2)**
+  - [https://youtu.be/TvDq5auNv6M](https://youtu.be/TvDq5auNv6M)
+
+- ☕ **Apresentação do Projeto Java**
+  - [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://www.youtube.com/watch?v=Q8nJ_H1wMAs)
+
+---
 
 Global Solution - FIAP 2025
 
-🎥 Vídeos
-
-📽️ Video Pitch
-https://www.youtube.com/watch?v=QJbUhtgRur4
-
-💻 Vídeo Apresentação .NET (1)
-https://www.youtube.com/watch?v=Q8nJ_H1wMAs
-
-💻 Vídeo Apresentação .NET (2)
-https://youtu.be/TvDq5auNv6M
-
-☕ Vídeo Apresentação Java
-https://www.youtube.com/watch?v=Q8nJ_H1wMAs
+---
