@@ -134,7 +134,6 @@ Depois, acesse:
 
 Global Solution - FIAP 2025  
 🔗 Repositório: [github.com/AngelloTDC/SmartNature.NET](https://github.com/AngelloTDC/SmartNature.NET)
-
-🔗 Video Pitch: https://www.youtube.com/watch?v=QJbUhtgRur4
-
-🔗 Video JAVA: https://www.youtube.com/watch?v=Q8nJ_H1wMAs
+🔗 Video Pitch: [https://www.youtube.com/watch?v=QJbUhtgRur4](https://www.youtube.com/watch?v=QJbUhtgRur4)
+🔗 Video .NET: [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://youtu.be/nAqNmpNykbQ)
+🔗 Video JAVA: [https://www.youtube.com/watch?v=Q8nJ_H1wMAs](https://www.youtube.com/watch?v=Q8nJ_H1wMAs)
