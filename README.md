@@ -137,14 +137,14 @@ Global Solution - FIAP 2025
 
 🎥 Vídeos
 
-- 📽️ Video Pitch
+📽️ Video Pitch
 https://www.youtube.com/watch?v=QJbUhtgRur4
 
--💻 Vídeo Apresentação .NET (1)
+💻 Vídeo Apresentação .NET (1)
 https://www.youtube.com/watch?v=Q8nJ_H1wMAs
 
--💻 Vídeo Apresentação .NET (2)
+💻 Vídeo Apresentação .NET (2)
 https://youtu.be/TvDq5auNv6M
 
--☕ Vídeo Apresentação Java
+☕ Vídeo Apresentação Java
 https://www.youtube.com/watch?v=Q8nJ_H1wMAs
